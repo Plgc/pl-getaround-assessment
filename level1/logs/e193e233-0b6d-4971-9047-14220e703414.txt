@@ -1,0 +1,1 @@
+id=e193e233-0b6d-4971-9047-14220e703414 service_name=web process=web.3149 sample#load_avg_1m=0.969 sample#load_avg_5m=0.75 sample#load_avg_15m=0.912

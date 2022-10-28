@@ -1,0 +1,1 @@
+id=45142945-5d5e-4956-9130-caba11014487 service_name=web process=web.3577 sample#load_avg_1m=0.566 sample#load_avg_5m=0.558 sample#load_avg_15m=0.256

@@ -1,0 +1,1 @@
+id=0b949b15-f62c-4176-a65d-5ffa431a69be service_name=admin process=admin.317 sample#load_avg_1m=0.295 sample#load_avg_5m=0.676 sample#load_avg_15m=0.06

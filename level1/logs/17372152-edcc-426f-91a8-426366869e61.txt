@@ -1,0 +1,1 @@
+id=17372152-edcc-426f-91a8-426366869e61 service_name=admin process=admin.2990 sample#load_avg_1m=0.509 sample#load_avg_5m=0.202 sample#load_avg_15m=0.863

@@ -1,0 +1,1 @@
+id=6ea31957-d104-4015-aa88-fa9080b2e88e service_name=web process=web.534 sample#load_avg_1m=0.204 sample#load_avg_5m=0.984 sample#load_avg_15m=0.205

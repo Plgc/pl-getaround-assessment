@@ -1,0 +1,1 @@
+id=3330882b-7ab6-4594-afbe-f4b2128b247e service_name=web process=web.1530 sample#load_avg_1m=0.228 sample#load_avg_5m=0.769 sample#load_avg_15m=0.437
