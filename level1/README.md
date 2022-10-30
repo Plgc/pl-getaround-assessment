@@ -22,4 +22,4 @@ The outputed JSON file should be in the format:
   "load_avg_5m": "0.10",
   "load_avg_15m": "0.31"
 }
-```
+
