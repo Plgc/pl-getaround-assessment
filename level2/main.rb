@@ -22,7 +22,7 @@ RES_PATH="parsed"
 # into formated CSV output into dir RES_PATH
 #
 # === Example
-# Will transform a paylog posted on '/'
+# Will transform a payload posted on '/'
 # {"log"=>"id=5cc9b9a6-ab53-4c6a-9f13-c9b4860e6c81 service_name=web process=web.806 sample#load_avg_1m=0.988 sample#load_avg_5m=0.15 sample#load_avg_15m=0.898"}
 # into the file parsed/5cc9b9a6-ab53-4c6a-9f13-c9b4860e6c81.json
 # containing
