@@ -36,3 +36,18 @@ eg:
  }
 ```
 
+## Approach
+
+1) Increase the connection pool : not reliable
+2) Threading the long computation : not reliable
+
+3) Use a queue : all the posted messages are queued (in a folder, a Redis list or a Kafka ?) and computed asynchronously --> solve the timeout issue but need of a temp queue.
+Also needs two differents scripts (could have been done by running the second in a Thread):
+- the first is main.rb, the http server which collects the logs and insert it in a temp queue (=a temps Redis list)
+- the second is compute.rb, the one computing the logs in the temp queue and inserting it in the final Redis List
+
+## Usage
+run main.rb
+run compute.rb
+run level4
+

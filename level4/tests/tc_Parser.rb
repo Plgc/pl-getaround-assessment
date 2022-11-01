@@ -6,7 +6,7 @@ class TestParser < Test::Unit::TestCase
 
   def test_extract_uuid
     assert_equal("0a1c7133-708e-40cf-8123-a441c3f3df43", Parser.extract_uuid("id=0a1c7133-708e-40cf-8123-a441c3f3df43 service_name=admin process=admin.2983 sample#load_avg_1m=0.583 sample#load_avg_5m=0.404 sample#load_avg_15m=0.738") )
-    assert_raise( ArgumentError ) { Parser.extract_uuid(nil) }
+    assert_raise( ArgumentError) { Parser.extract_uuid(nil) }
   end
 
   def test_parse
