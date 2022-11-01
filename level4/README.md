@@ -47,7 +47,7 @@ Also needs two differents scripts (could have been done by running the second in
 - the second is compute.rb, the one computing the logs in the temp queue and inserting it in the final Redis List
 
 ## Usage
-run main.rb
-run compute.rb
-run level4
+1) run main.rb
+2) run compute.rb
+3) run level4
 
